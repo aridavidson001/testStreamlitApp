@@ -17,7 +17,7 @@ def run_query(query):
 sheet_url = st.secrets["public_gsheets_url"]
 
 st.header('Test for Importing and Exporting Data to and from Google Sheets')
-data = pd.read_csv('sheets_url')
+data = pd.read_csv("sheet_url")
 
 df = pd.DataFrame(data)
 st.dataframe(df) 
