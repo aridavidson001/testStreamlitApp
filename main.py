@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 
 st.header('Test for Importing and Exporting Data to and from Google Sheets')
-data = pd.read_csv["public_gsheets_url"]
-
+sheet_url = st.secrets["public_gsheets_url"]
+data = pd.read_csv(sheet_url)
 df = pd.DataFrame(data)
 st.dataframe(df) 
 
