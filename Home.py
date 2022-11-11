@@ -2,8 +2,8 @@
 
 import streamlit as st
 import pandas as pd
-st.markdown("# Main page 🎈")
-st.sidebar.markdown("# Main page 🎈")
+st.markdown("# Home")
+st.sidebar.markdown("# Home")
 
 
 st.header("Hello!")
