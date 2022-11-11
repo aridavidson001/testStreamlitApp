@@ -3,6 +3,9 @@
 import streamlit as st
 from gsheetsdb import connect
 import pandas as pd
+st.markdown("# Main page 🎈")
+st.sidebar.markdown("# Main page 🎈")
+
 # Create a connection object.
 conn = connect()
 
