@@ -6,5 +6,5 @@ st.markdown("# Home")
 st.sidebar.markdown("# Home")
 
 
-st.header("Hello!")
-st.write("Welcome to my amazing Website!")
+#st.header("Hello!")
+st.header("Welcome to my amazing Website!")
