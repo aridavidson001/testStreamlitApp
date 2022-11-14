@@ -15,14 +15,9 @@ with col1:
   #st.header("About Me")
   st.expander('Expander')
   with st.expander('About Me'):
-    st.write('Expanded ')
+    st.write('Expanded')
 with col2:
   #st.header("Projects")
   st.expander('Expander')
   with st.expander('Projects'):
-    st.write('Expanded ')
-
-
-st.expander('Expander')
-with st.expander('Expand'):
-   st.write('Expanded ')
+    st.write('Expanded')
