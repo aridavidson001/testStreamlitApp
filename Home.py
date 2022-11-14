@@ -18,7 +18,6 @@ with col1:
 with col2:
   st.expander('Expander')
   with st.expander('Projects'):
-    st.balloons()
     st.subheader('Currently Working On...')
     tab1, tab2 = st.tabs(["N.A.","N.A"])
     with tab1:
@@ -31,4 +30,5 @@ with col2:
 with col3:
   st.expander('Expander')
   with st.expander('Other'):
-    st.subheader('N.A.')
+    st.balloons()
+    st.subheader('Have some ballons!')
