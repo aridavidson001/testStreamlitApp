@@ -13,9 +13,9 @@ st.container()
 col1, col2 = st.columns(2)
 with col1:
   st.expander('Expander')
-  with st.expander('Music'):
+  with st.expander('About Me'):
     st.subheader('My Name Is Ari Davidson')
-    st.write('''I compose music in my free time - View my music on Flat.io and Soundcloud''')
+    st.write('''Not much to say here''')
     
 with col2:
   st.expander('Expander')
