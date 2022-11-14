@@ -24,5 +24,7 @@ with col2:
     st.subheader('Currently Working On...')
     st.write('Stuffs')
     tab1, tab2 = st.tabs(["Smart Glasses","N.A"])
-    tab1.subheader('Smart Glasses')
+    with tab1:
+      st.subheader('Smart Glasses')
+      st.write('''Working on it...''')
     tab2.subheader('N.A')
