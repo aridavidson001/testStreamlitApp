@@ -23,7 +23,7 @@ with col2:
     tab1, tab2 = st.tabs(["Smart Glasses","N.A"])
     with tab1:
       st.subheader('Smart Glasses')
-      st.write('''Working on it...''')
+      st.write('''Featuring a Raspberry Pi 0W and a 128x64 px monochrome OLED display''')
     with tab2:
       st.subheader('N.A')
       st.write('N.A.')
