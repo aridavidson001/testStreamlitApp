@@ -23,6 +23,6 @@ with col2:
   with st.expander('Projects'):
     st.subheader('Currently Working On...')
     st.write('Stuffs')
-    tab1, tab2 = st.tabs(['Project 1', 'Project 2'])
-    tab1.subheader('Project 1')
+    tab1, tab2 = st.tabs(['Smart Glasses', 'Project 2'])
+    tab1.subheader('Smart Glasses')
     tab2.subheader('Project 2')
