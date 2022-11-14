@@ -15,9 +15,9 @@ with col1:
   #st.header("About Me")
   st.expander('Expander')
   with st.expander('About Me'):
-    st.write('Expanded')
+    st.subheader('My Name Is Ari Davidson')
 with col2:
   #st.header("Projects")
   st.expander('Expander')
   with st.expander('Projects'):
-    st.write('Expanded')
+    st.subheader('Currently Working On...')
