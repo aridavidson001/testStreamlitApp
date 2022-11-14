@@ -16,11 +16,12 @@ with col1:
   st.expander('Expander')
   with st.expander('Expand'):
     st.write('Expanded ')
+with col2:
+  st.header("Projects")
+  st.expander('Expander')
+  with st.expander('Expand'):
+    st.write('Expanded ')
 
-col2.header("Projects")
- # col2.expander("Click to learn more")
-  # with col2.expander('Expand'):
-   #   st.write('Expanded ')
 
 st.expander('Expander')
 with st.expander('Expand'):
