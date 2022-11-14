@@ -16,5 +16,5 @@ st.columns(spec)
 col1, col2 = st.columns(2)
 col1.subheader('Columnisation')
 st.expander('Expander')
- with st.expander('Expand'):
+with st.expander('Expand'):
    st.write('Juicy deets')
