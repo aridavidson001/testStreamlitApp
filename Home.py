@@ -28,5 +28,5 @@ with col2:
       st.write('N.A.')
 with col3:
   st.expander('Expander')
-  with st.expander('Other')
+  with st.expander('Other'):
     st.subheader('N.A.')
