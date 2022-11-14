@@ -6,6 +6,8 @@ st.sidebar.markdown("# Home")
 
 st.header('Welcome to my Website!')
 st.write('This is where I will post completed projects, information about myself, and more!')
+if st.button('Click Me for Balloons!'):
+  st.balloons()
 
 st.container()
 col1, col2, col3 = st.columns(3)
