@@ -10,9 +10,9 @@ st.header("Welcome to my amazing Website!")
 st.write("This is where I will post completed projects, information about myself, and more!")
 
 st.container()
-st.columns(spec)
 col1, col2 = st.columns(2)
-col1.subheader('Columnisation')
+col1.header("Column 1")
+col2.header("Column 2")
 st.expander('Expander')
 with st.expander('Expand'):
    st.write('Juicy deets')
