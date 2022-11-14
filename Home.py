@@ -11,8 +11,12 @@ st.write("This is where I will post completed projects, information about myself
 
 st.container()
 col1, col2 = st.columns(2)
-col1.header("Column 1")
-col2.header("Column 2")
+col1.header("About Me")
+
+
+col2.header("Projects")
+
+
 st.expander('Expander')
 with st.expander('Expand'):
    st.write('Juicy deets')
