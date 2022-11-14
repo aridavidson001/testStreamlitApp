@@ -8,7 +8,7 @@ st.header('Welcome to my Website!')
 st.write('This is where I will post completed projects, information about myself, and more!')
 
 st.container()
-col1, col2 = st.columns(3)
+col1, col2, col3 = st.columns(3)
 with col1:
   st.expander('Expander')
   with st.expander('About Me'):
