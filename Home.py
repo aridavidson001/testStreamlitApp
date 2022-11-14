@@ -13,17 +13,18 @@ st.container()
 col1, col2 = st.columns(2)
 with col1:
   st.expander('Expander')
-  with st.expander('About Me'):
+  with st.expander('Music'):
     st.subheader('My Name Is Ari Davidson')
-    st.write('I am currently teaching my self full-stack web development.')
+    st.write('''I compose music in my free time - View my music on Flat.io and Soundcloud''')
+    
 with col2:
   st.expander('Expander')
   with st.expander('Projects'):
     st.subheader('Currently Working On...')
-    tab1, tab2 = st.tabs(["Smart Glasses","N.A"])
+    tab1, tab2 = st.tabs(["N.A.","N.A"])
     with tab1:
-      st.subheader('Smart Glasses')
-      st.write('''Featuring a Raspberry Pi 0W and a 128x64 px monochrome OLED display''')
+      st.subheader('N.A.')
+      st.write('N.A.')
     with tab2:
       st.subheader('N.A')
       st.write('N.A.')
