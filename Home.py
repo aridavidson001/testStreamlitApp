@@ -6,7 +6,7 @@ import pandas as pd
 st.markdown("# Home")
 st.sidebar.markdown("# Home")
 
-st.header('Welcome to my amazing Website!')
+st.header('Welcome to my Website!')
 st.write('This is where I will post completed projects, information about myself, and more!')
 
 st.container()
