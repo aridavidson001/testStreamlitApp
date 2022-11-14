@@ -13,10 +13,12 @@ st.container()
 col1, col2 = st.columns(2)
 col1.header("About Me")
 col1.expander("Click to learn more")
+with col1.expander('Expand'):
 
 col2.header("Projects")
-col1.expander("Click to learn more")
+col2.expander("Click to learn more")
+with col2.expander('Expand'):
 
 st.expander('Expander')
 with st.expander('Expand'):
-   st.write('Juicy deets')
+   st.write('Expanded ')
