@@ -27,4 +27,6 @@ with col2:
     with tab1:
       st.subheader('Smart Glasses')
       st.write('''Working on it...''')
-    tab2.subheader('N.A')
+    with tab2:
+      st.subheader('N.A')
+      st.write('N.A.')
