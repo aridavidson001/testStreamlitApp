@@ -12,14 +12,14 @@ st.write("This is where I will post completed projects, information about myself
 st.container()
 col1, col2 = st.columns(2)
 with col1:
-  st.header("About Me")
+  #st.header("About Me")
   st.expander('Expander')
-  with st.expander('Expand'):
+  with st.expander('About Me'):
     st.write('Expanded ')
 with col2:
-  st.header("Projects")
+  #st.header("Projects")
   st.expander('Expander')
-  with st.expander('Expand'):
+  with st.expander('About Me'):
     st.write('Expanded ')
 
 
