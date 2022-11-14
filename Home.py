@@ -18,6 +18,7 @@ with col1:
 with col2:
   st.expander('Expander')
   with st.expander('Projects'):
+    st.ballons()
     st.subheader('Currently Working On...')
     tab1, tab2 = st.tabs(["N.A.","N.A"])
     with tab1:
@@ -26,6 +27,7 @@ with col2:
     with tab2:
       st.subheader('N.A')
       st.write('N.A.')
+      
 with col3:
   st.expander('Expander')
   with st.expander('Other'):
