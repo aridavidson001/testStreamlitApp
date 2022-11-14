@@ -19,7 +19,7 @@ with col1:
 with col2:
   #st.header("Projects")
   st.expander('Expander')
-  with st.expander('About Me'):
+  with st.expander('Projects'):
     st.write('Expanded ')
 
 
