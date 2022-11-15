@@ -14,13 +14,13 @@ col1, col2, col3 = st.columns(3)
 with col1:
   st.expander('Expander')
   with st.expander('About Me'):
-    st.subheader('My Name Is Ari Davidson')
+    st.subheader('My name is Ari Davidson')
     st.write('''Not much to say here''')
     
 with col2:
   st.expander('Expander')
   with st.expander('Projects'):
-    st.subheader('Currently Working On...')
+    st.subheader('Currently working on...')
     tab1, tab2 = st.tabs(["N.A.","N.A"])
     with tab1:
       st.subheader('N.A.')
